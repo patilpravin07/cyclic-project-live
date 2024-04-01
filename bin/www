@@ -12,7 +12,7 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/pagination')
+mongoose.connect('mongodb+srv://pravin:123@cluster0.ckgn9ky.mongodb.net/pagination')
   .then(() => console.log('Connected!'));
 
 /**
